@@ -5,7 +5,7 @@ WORKDIR /src
 COPY src/*.csproj .
 RUN dotnet restore
 COPY src .
-RUN dotnet publish -c Release -o /publish
+RUN dotnet publish -c Debug -o /publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:7.0 as runtime
 WORKDIR /publish

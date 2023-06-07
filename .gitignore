@@ -3,3 +3,12 @@ tests/obj/
 tests/bin/Debug/
 src/obj/
 src/bin/
+*.vsidx
+*.suo
+obj/
+docker-compose.override.yml
+src/myWebApp.csproj.user
+docker-compose.dcproj
+bin/Debug/
+.vs/
+docker-compose.dcproj.user
