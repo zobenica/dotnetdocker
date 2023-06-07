@@ -1,0 +1,5 @@
+*.dll
+tests/obj/
+tests/bin/Debug/
+src/obj/
+src/bin/
